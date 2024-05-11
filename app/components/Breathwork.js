@@ -16,13 +16,16 @@ export default function Breathwork() {
                 Nos dias atuais, nunca foi tão necessário o equilíbrio do nosso ser, pois vivemos imersos em fatores estressantes e que causam ansiedade o tempo todo.
                 </p>
                 <p className={styles.p}>
-                Diversos estudos científicos descobriram que através da nossa respiração de forma “consciente” e não automática, podemos assumir o autocontrole emocional, ter mais  aclareza e calma para tomar decisões importantes, viver no aqui e no agora com mais foco e determinação, dormir melhor e muitos outros benefícios.
+                Diversos estudos científicos descobriram que através da nossa respiração de forma “consciente” e não automática, podemos assumir o autocontrole emocional, ter mais  clareza e calma para tomar decisões importantes, viver no aqui e no agora com mais foco e determinação, dormir melhor e muitos outros benefícios.
                 </p>
                 <p className={styles.p}>
                 O Breathwork usa uma ferramenta sem nenhum custo e que todos temos: a nossa respiração!
                 </p>
                 <p className={styles.p}>
-                Então, te convido a vivenciar esta experiência em sua vida! Será uma honra pra mim te conduzir!
+                Então, te convido a vivenciar esta experiência em sua vida!
+                </p>
+                <p className={styles.p}>
+                Será uma honra pra mim te conduzir!
                 </p>
                 <h6 className={styles.author}>- Alessandra Montezano</h6>
             </div>
