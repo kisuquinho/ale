@@ -31,7 +31,7 @@ const items = [
     {
         id: "06",
         icon: "/award.svg",
-        text: <p className={styles.p}><strong>Bônus:</strong> Sessões rápidas de respiração de 3 a 5 minutos para fazer onde e quando quiser</p>
+        text: <p className={styles.p}><strong>Bônus:</strong> Práticas rápidas de respiração de 3 a 5 minutos para fazer onde e quando quiser</p>
     }
 ]
 
