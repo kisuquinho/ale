@@ -28,7 +28,7 @@ export default function Meet() {
             </p>
             <div className={styles.wrapper}>
                 {cards.map((card) => (
-                    <div className={styles.card}>
+                    <div key={card.title} className={styles.card}>
                         <img src={card.icon} alt="" />
                         <h6 className={styles.text}>
                             {card.text}
