@@ -1,0 +1,55 @@
+:root {
+  --clr-100: hsla(0, 0%, 100%, 1);
+  --clr-300: hsla(274, 41%, 96%, 1);
+  --clr-400: hsla(274, 48%, 80%, 1);
+  --clr-500: hsla(274, 80%, 65%, 1);
+  --clr-700: hsla(274, 42%, 37%, 1);
+  --clr-800: hsla(274, 71%, 13%, 1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--clr-300);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav > .active_category {
+  opacity: 1;
+
+  &::after {
+    transform: scaleX(100%);
+}
+}
+
+.faq {
+  border-bottom: 2px solid var(--clr-100);
+  padding: 12px 18px;
+}
+
+.faq.open p {
+  max-height: 500px;
+  padding-top: 4px;
+}
+
+.faq img {
+  transition: .5s;
+}
+
+.faq.open img {
+  transform: rotate(90deg);
+}

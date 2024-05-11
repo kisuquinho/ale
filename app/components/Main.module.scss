@@ -1,0 +1,43 @@
+.main {
+    position: relative;
+    padding: 144px 0px;
+    z-index: 10;
+
+    .bg {
+        position: absolute;
+        object-fit: cover;
+        z-index: -3;
+        border: 0;
+    }
+
+    .container {
+        max-width: 936px;
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+    }
+
+    .title {
+        max-width: 456px;
+    }
+
+    .p {
+        max-width: 456px;
+        opacity: 0.8;
+        color: var(--clr-800, #250A3A);
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .img {
+        position: absolute;
+        top: -140px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        transform: translateX(240px);
+        width: 550px;
+        height: auto;
+    }
+}

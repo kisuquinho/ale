@@ -1,0 +1,30 @@
+.help {
+    color: var(--clr-700, #643787);
+    margin: 0 auto;
+    max-width: 744px;
+    padding: 62px;
+    display: grid;
+    gap: 24px;
+
+    .title {
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 12px;
+        padding: 12px 24px;
+        border: 1px solid #FFF;
+        background: rgba(255, 255, 255, 0.33);
+    }
+}

@@ -1,0 +1,111 @@
+.faqaside {
+    padding: 72px 0px;
+    background: linear-gradient(87deg, #643787 0%, #AF60ED 100%);
+    color: var(--clr-100);
+
+    .container {
+        max-width: 936px;
+        margin: 0 auto;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .faq {
+        .title {
+            font-size: 1.75rem;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+    }
+
+    .faqs {
+        background-color: hsla(0, 0%, 100%, .1);
+        border-top: 2px solid var(--clr-100);
+
+
+    }
+
+    .aside {
+        text-align: center;
+        max-width: 360px;
+        padding: 0px 36px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .ig_icon {
+        transition: .5s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .ig_caption {
+        font-size: 1.125rem;
+    }
+
+    .ig {
+        color: var(--clr-800);
+        padding: 20px 72px;
+        border-radius: 16px;
+        border: 1px solid #FFF;
+        background: rgba(255, 255, 255, 0.5);
+        font-size: 1.125rem;
+        transition: .5s;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.66);
+        }
+    }
+}
+
+
+
+
+
+
+.footer {
+    background-color: var(--clr-800);
+    height: 64px;
+    width: 100%;
+    padding: 18px 0px;
+    color: var(--clr-100);
+
+    .container {
+        max-width: 1128px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer_p {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -0.05rem;
+    opacity: .9;
+
+    .em {
+        font-weight: 700;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--clr-100);
+        }
+    }
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+}

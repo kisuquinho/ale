@@ -1,0 +1,49 @@
+.btn {
+    color: var(--clr-100);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+    transition: .5s;
+    background-color: var(--clr-500);
+}
+
+.main {
+    position: relative;
+    width: fit-content;
+    padding: 14px 108px;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background: linear-gradient(90deg, #AF60ED 0%, #643787 100%);
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform-origin: bottom left;
+        width: 24px;
+        height: 24px;
+        transform: scale(0) translate(0, -50%);
+        background-image: url(../assets/arrow.svg);
+        transition: .5s ease;
+      }
+
+    &:hover {
+        transform: translateX(4px);
+
+        &::after {
+            transform: scale(1) translate(0, -50%);
+          }
+    }
+}
+
+.checkout {
+    width: 100%;
+    padding: 14px 0px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    font-size: 1rem;
+
+    &:hover {
+        background-color: lighten($color: #AF60ED, $amount: 8);
+    }
+}

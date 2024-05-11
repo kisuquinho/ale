@@ -1,0 +1,88 @@
+.checkout {
+    color: var(--clr-800, #250A3A);
+    max-width: 744px;
+    margin: 70px auto 72px auto;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.bepart {
+    display: grid;
+    gap: 16px;
+    padding-left: 6px;
+    max-width: 456px;
+
+    .title {
+        max-width: 356px;
+        font-size: 2rem;
+    }
+
+    .container {
+        display: grid;
+        gap: 12px;
+    }
+
+    .item {
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+
+        .p {
+            font-size: 1.125rem;
+            font-weight: 400;
+            line-height: 150%;
+            opacity: .95;
+        }
+    }
+}
+
+.pricing {
+    border-radius: 6px 16px 6px 16px;
+    border: 2px solid #FFF;
+    background: var(--clr-700, #643787);
+    display: flex;
+    width: 100%;
+    max-width: 264px;
+    padding: 40px 24px;
+    flex-direction: column;
+    align-items: center;
+
+    .p {
+        color: var(--clr-400, #CFB3E4);
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    .p2 {
+        color: var(--clr-400, #CFB3E4);
+        font-size: .8rem;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+
+    .price {
+        font-size: 3rem;
+        color: var(--clr-400);
+        font-weight: 600;
+        position: relative;
+        margin-bottom: 4px;
+
+        .cents {
+            font-size: 1.25rem;
+        }
+
+        &::before {
+            content: "R$";
+            font-size: 1.25rem;
+        }
+
+        &::after {
+            content: "5x";
+            font-size: 1rem;
+            position: absolute;
+            top: 8px;
+        }
+    }
+}
