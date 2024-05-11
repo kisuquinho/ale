@@ -22,25 +22,25 @@ export default function Footer() {
 
     const [faqs, setFaqs] = useState([
         {
-          question: "Quais alimentos e produtos podem ser doados?",
-          answer: "As doações aceitas para a APOV são: leite, óleo, feijão, arroz, farinha de trigo, achocolatado, polpa de suco concentrado, fermento, amido de milho, triguilho (trigo kibe), macarrão, detergente, desinfetante, álcool líquido, bucha de pia, água sanitária, papel higiênico, perfex, coco ralado, extrato de tomate e biscoito.",
+          question: "Quando terei acesso ao produto?",
+          answer: "Assim que realizado o pagamento terá acesso aos materiais de apoio ,... . Os 1° encontro será no dia ... às 19h30. ",
           open: false
         },
         {
-          question: "Posso participar da doação de cabelos se meu cabelo tiver química?",
-          answer: "SIM, o uso de produtos (químicos ou naturais) no cabelo não é critério de exclusão para a doação.",
-          open: false
-        },
-        {
-          question:
-            "A cor do cabelo importa?",
-          answer: "NÃO, reforçamos que a diversidade de cores e texturas de cabelos é de extremo valor, ppois contribui para o pertencimento de quem os recebe.",
+          question: "Pra quem é o Breathwork? Há alguma contraindicação?",
+          answer: "O Breathwork é para todos que têm o desejo de assumir o controle da própria saúde,,, ...",
           open: false
         },
         {
           question:
-            "Posso levar uma mecha previamente cortada?",
-          answer: "SIM, mas reforçamos as condições: doação mínima de 20cm e mecha seca e limpa, amarrada com elástico e armazenada em saco plástico.",
+            "As mentorias serão disponibilizadas para re-assistir?",
+          answer: "...",
+          open: false
+        },
+        {
+          question:
+            "E se eu não me adaptar a esse método?",
+          answer: "Caso após a 1° mentoria decidir que não é pra você, 100% do seu investimento será retornado",
           open: false
         }
     ]);
