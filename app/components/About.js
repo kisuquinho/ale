@@ -24,7 +24,7 @@ export default function About() {
         document.getElementById('personal').classList.add('active_category');
         document.getElementById('mission').classList.remove('active_category');
         document.getElementById('degree').classList.remove('active_category');
-        document.getElementById('p').innerHTML="";
+        document.getElementById('p').innerHTML="Sou mãe, profissional de saúde, e apaixonada! Sou alguém que abraça a jornada da vida com coragem, espiritualidade e determinação, alinhada a cada dia com o meu propósito de auxiliar as pessoas a conectar-se consigo mesmas e a expandir a sua consciência. Sou uma eterna aprendiz da vida, uma realizadora incansável dos meus sonhos, que acredita no poder do amor e na capacidade de recriação de sua vida por cada ser humano!";
     }
 
     return (

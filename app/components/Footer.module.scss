@@ -62,11 +62,6 @@
     }
 }
 
-
-
-
-
-
 .footer {
     background-color: var(--clr-800);
     height: 64px;
@@ -108,4 +103,10 @@
 .links {
     display: flex;
     gap: 12px;
+}
+
+@media screen and (max-width: 1208px) {
+    .footer {
+        padding: 18px 40px;
+    }
 }
