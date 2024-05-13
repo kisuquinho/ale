@@ -13,15 +13,16 @@
     border-radius: 50%;
 }
 
-.rline {
+.rline, .lline {
     width: calc(50% - 12.5px);
     height: 1px;
+}
+
+.rline {
     background: linear-gradient(90deg, #643787 0%, #AF60ED 100%);
 }
 
 .lline {
-    width: calc(50% - 12.5px);
-    height: 1px;
     background: linear-gradient(90deg, #AF60ED 0%, #643787 100%);
 }
 
@@ -31,4 +32,14 @@
 
 .twelve {
     max-width: 1128px;
+}
+
+@media screen and (max-width: 1208px) {
+    .rline {
+        margin-right: 40px;
+    }
+
+    .lline {
+        margin-left: 40px;
+    }
 }

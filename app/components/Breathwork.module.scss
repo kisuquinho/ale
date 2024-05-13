@@ -82,8 +82,9 @@
     left: 0;
     right: 0;
     text-align: center;
-    transform: translateX(240px);
+    transform: translateX(220px);
     width: 550px;
     height: auto;
     mix-blend-mode: lighten;
+    overflow: hidden;
 }

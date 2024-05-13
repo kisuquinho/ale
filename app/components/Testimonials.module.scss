@@ -13,6 +13,7 @@
     }
 
     .wrapper {
+        width: calc(100% - 50px);
         max-width: 1128px;
         display: flex;
         align-items: center;
@@ -29,5 +30,11 @@
 @media screen and (max-width: 1208px) {
     .testimonials {
         padding: 70px 40px;
+
+        .wrapper {
+            .img {
+                width: 25%;
+            }
+        }
     }
 }

@@ -36,8 +36,16 @@
         left: 0;
         right: 0;
         text-align: center;
-        transform: translateX(240px);
-        width: 550px;
+        transform: translateX(220px);
+        width: 100%;
+        max-width: 550px;
         height: auto;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1208px) {
+    .main {
+        padding: 144px 96px;
     }
 }
