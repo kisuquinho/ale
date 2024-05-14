@@ -38,13 +38,13 @@ const items = [
 
 export default function Help() {
     return (
-        <div className={styles.help}>
+        <section className={styles.help}>
             <h3 className={`${marcellus.className} ${styles.title}`}>No que posso te ajudar:</h3>
             <div className={styles.container}>
                 {items.map((item) => (
                     <p className={styles.item} key={item.id}>{item.text}</p>
                 ))}
             </div>
-        </div>
+        </section>
     )
 }

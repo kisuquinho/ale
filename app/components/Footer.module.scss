@@ -1,5 +1,5 @@
 .faqaside {
-    padding: 72px 0px;
+    padding: 72px 40px;
     background: linear-gradient(87deg, #643787 0%, #AF60ED 100%);
     color: var(--clr-100);
 
@@ -66,7 +66,7 @@
     background-color: var(--clr-800);
     height: 64px;
     width: 100%;
-    padding: 18px 0px;
+    padding: 18px 40px;
     color: var(--clr-100);
 
     .container {
@@ -105,14 +105,26 @@
     gap: 12px;
 }
 
-@media screen and (max-width: 1208px) {
-    .footer {
-        padding: 18px 40px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .faqaside {
-        padding: 72px 40px;
+        .container {
+            gap: 8px;
+        }
+    
+        .aside {
+            max-width: 320px;
+            gap: 12px;
+            padding: 0px 0px 0px 36px;
+        }
+
+        .ig_caption {
+            font-size: 1rem;
+        }
+    
+        .ig {
+            width: 100%;
+            padding: 16px 10px;
+            border-radius: 12px;
+        }
     }
 }

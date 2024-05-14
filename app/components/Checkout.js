@@ -37,7 +37,7 @@ const items = [
 
 export default function Checkout() {
     return (
-        <div className={styles.checkout}>
+        <section className={styles.checkout}>
             <aside className={styles.bepart}>
                 <h3 className={`${marcellus.className} ${styles.title}`}>Faça parte da Comunidade Respira</h3>
                 <div className={styles.container}>
@@ -55,6 +55,6 @@ export default function Checkout() {
                 <p className={styles.p2}>ou 440,00 à vista</p>
                 <Button section="checkout">EU QUERO</Button>
             </div>
-        </div>
+        </section>
     )
 }
