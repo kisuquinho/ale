@@ -78,6 +78,7 @@
         padding: 80px 40px 78px 40px;
     
         .wrapper {
+
             .nav {
                 gap: 8px;
                 align-items: flex-start;
@@ -99,11 +100,19 @@
 
         .wrapper {
             order: 2;
+
+            .title {
+                font-size: 1.8rem;
+            }
         }
 
         .img {
             width: 50%;
             order: 1;
         }
-    }    
+    }
+    
+    .category {
+        font-size: 1.2rem;
+    }
 }
