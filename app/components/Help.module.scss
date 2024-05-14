@@ -29,3 +29,24 @@
         background: rgba(175, 96, 237, 0.50);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .help {
+        padding: 46px;
+    
+        .title {
+            font-size: 1.4rem;
+        }
+    
+        .container {
+            gap: 8px;
+        }
+    
+        .item {
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 23px;
+            padding: 8px 16px;
+        }
+    }
+}
