@@ -43,7 +43,6 @@
     .img {
         width: 35.5%;
         height: auto;
-        flex-shrink: 0;
     }
 }
 
@@ -88,6 +87,23 @@
                     display: none;
                 }
             }
+        }
+    }    
+}
+
+@media screen and (max-width: 640px) {
+    .about {
+        padding: 80px 40px 78px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .wrapper {
+            order: 2;
+        }
+
+        .img {
+            width: 50%;
+            order: 1;
         }
     }    
 }

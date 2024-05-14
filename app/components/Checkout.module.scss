@@ -9,7 +9,8 @@
 }
 
 .bepart {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 16px;
     padding-left: 6px;
     max-width: 456px;
@@ -91,11 +92,14 @@
 @media screen and (max-width: 768px) {
     .checkout {
         margin: 70px auto 72px auto;
-        padding: 0px 20px;
+        padding: 0px 24px;
         flex-direction: column;
     }
 
     .bepart {
+        justify-content: center;
+        align-items: center;
+
         .title {
             text-align: center;
         }
