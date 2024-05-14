@@ -87,3 +87,17 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .checkout {
+        margin: 70px auto 72px auto;
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+
+    .bepart {
+        .title {
+            text-align: center;
+        }
+    }
+}

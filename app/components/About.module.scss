@@ -74,13 +74,20 @@
     }
 }
 
-@media screen and (max-width: 1208px) {
-    .testimonials {
-
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 80px 40px 78px 40px;
+    
         .wrapper {
-            .img {
-                width: 25%;
+            .nav {
+                gap: 8px;
+                align-items: flex-start;
+                flex-direction: column;
+
+                .dot {
+                    display: none;
+                }
             }
         }
-    }
+    }    
 }

@@ -108,13 +108,13 @@
 @media screen and (max-width: 1024px) {
     .faqaside {
         .container {
-            gap: 8px;
+            gap: 32px;
         }
     
         .aside {
             max-width: 320px;
             gap: 12px;
-            padding: 0px 0px 0px 36px;
+            padding: 0px 0px 0px 0px;
         }
 
         .ig_caption {
@@ -125,6 +125,17 @@
             width: 100%;
             padding: 16px 10px;
             border-radius: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .faqaside {
+        padding: 36px 20px;
+
+        .container {
+            flex-direction: column;
+            gap: 24px;
         }
     }
 }

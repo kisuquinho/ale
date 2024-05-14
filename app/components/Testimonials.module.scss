@@ -13,27 +13,18 @@
     }
 
     .wrapper {
-        width: calc(100% - 50px);
+        width: 100%;
         max-width: 1128px;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 16px;
 
         .img {
-            width: 25%;
+            flex-basis: 264px;
+            flex-grow: 1;
             border-radius: 4px;
-        }
-    }
-}
-
-@media screen and (max-width: 1208px) {
-    .testimonials {
-
-        .wrapper {
-            .img {
-                width: 25%;
-            }
         }
     }
 }
