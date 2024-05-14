@@ -84,12 +84,21 @@
 
 @media screen and (max-width: 768px) {
     .meet {
-        padding: 82px 40px;
-    
         .wrapper {
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
         }
     }
+}
+
+@media screen and (max-width: 640px) {
+    .meet {
+        padding: 40px;
+        gap: 16px;
+
+        .title {
+            font-size: 1.5rem;
+        }
+    }    
 }
