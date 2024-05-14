@@ -105,3 +105,22 @@
         }
     }
 }
+
+@media screen and (max-width: 640px) {
+    .checkout {
+        margin: 38px auto 40px auto;
+        padding: 0px 24px;
+        flex-direction: column;
+    }
+
+    .bepart {
+        justify-content: center;
+        align-items: center;
+
+        .title {
+            text-align: center;
+            max-width: 280px;
+            font-size: 1.5rem;
+        }
+    }
+}

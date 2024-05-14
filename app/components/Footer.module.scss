@@ -114,7 +114,7 @@
         .aside {
             max-width: 320px;
             gap: 12px;
-            padding: 0px 0px 0px 0px;
+            padding: 0px;
         }
 
         .ig_caption {
@@ -132,6 +132,16 @@
 @media screen and (max-width: 768px) {
     .faqaside {
         padding: 36px 20px;
+
+        .aside {
+            padding: 0px 36px;
+        }
+
+        .faq {
+            .title {
+                font-size: 1.4rem;
+            }
+        }
 
         .container {
             flex-direction: column;
