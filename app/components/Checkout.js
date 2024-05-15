@@ -51,7 +51,7 @@ export default function Checkout() {
             </aside>
             <div className={styles.pricing}>
                 <p className={styles.p}>Por apenas:</p>
-                <h6 className={styles.price}>96<span className={styles.cents}>,49</span></h6>
+                <h6 className={styles.price}>97<span className={styles.cents}>,42</span></h6>
                 <p className={styles.p2}>ou 440,00 à vista</p>
                 <Button section="checkout">EU QUERO</Button>
             </div>
