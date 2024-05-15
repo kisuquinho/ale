@@ -28,7 +28,7 @@ export default function Footer() {
         },
         {
           question: "Pra quem é o Breathwork? Há alguma contraindicação?",
-          answer: "A prática do Breathwork é segura se praticada corretamente. As técnicas devem ser feitas com cautela por pessoas com hipertensão grave ou doença cardíaca. Mulheres grávidas não podem fazer.",
+          answer: "A prática do Breathwork é segura se praticada corretamente. As técnicas devem ser feitas com cautela por pessoas com hipertensão grave. Mulheres grávidas e pessoas com doenças cardíacas, esquizofrenia ou glaucoma não controlados, não podem fazer.",
           open: false
         },
         {
