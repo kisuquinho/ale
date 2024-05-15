@@ -1,6 +1,6 @@
 import { inter } from './fonts'
 import "./globals.scss";
-import GoogleAnalytics from "./metrics/GoogleAnalytics"
+import { GoogleAnalytics } from '@next/third-parties/google'
 import MicrosoftClarity from "./metrics/MicrosoftClarity"
 
 export const metadata = {
@@ -33,9 +33,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics />
       <MicrosoftClarity />
-      Metrics
+      <GoogleAnalytics gaId="G-J6HFYEWYFF" />
     </html>
   );
 }
