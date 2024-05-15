@@ -1,5 +1,4 @@
 import { GoogleAnalytics } from '@next/third-parties/google'
-import { clarity } from 'react-microsoft-clarity';
 import { inter } from './fonts'
 import "./globals.scss";
 
@@ -29,8 +28,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
-  clarity.init('mcmcdha9a4');
 
   return (
     <html lang="pt-br">
