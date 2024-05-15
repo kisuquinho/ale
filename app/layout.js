@@ -1,4 +1,3 @@
-import { GoogleAnalytics } from '@next/third-parties/google'
 import { inter } from './fonts'
 import "./globals.scss";
 import GoogleAnalytics from "./GoogleAnalytics"
