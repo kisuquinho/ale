@@ -34,7 +34,7 @@ export default function Footer() {
         {
           question:
             "As mentorias serão disponibilizadas para reassistir?",
-          answer: "O replay da mentoria estará disponível na semana respectiva ao encontro",
+          answer: "O replay da mentoria estará disponível na semana respectiva ao encontro.",
           open: false
         },
         {
@@ -46,7 +46,7 @@ export default function Footer() {
         {
           question:
             "E se eu não me adaptar a esse método?",
-          answer: "Caso após a 1° mentoria decidir que não é pra você, 100% do seu investimento será retornado",
+          answer: "Caso após a 1° mentoria decidir que não é pra você, 100% do seu investimento será retornado.",
           open: false
         }
     ]);

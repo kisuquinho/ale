@@ -5,7 +5,7 @@ const cards = [
     {
         icon: "/wind.svg",
         title: "mentorias",
-        text: "8 Sessões com Teoria e Práticas de Breathwork, do Nível 1 ao Nível 3"
+        text: "Mentoria - 8 Sessões com Teoria e Práticas de Breathwork, do Nível 1 ao Nível 3"
     },
     {
         icon: "/slack.svg",
@@ -38,7 +38,7 @@ export default function Meet() {
             </div>
             <div className={styles.file}>
                 <img src="/file.svg" alt="Ícone de arquivo" />
-                <a className={styles.a} href="http://" target="_blank" rel="noopener noreferrer">Cronograma</a>
+                <a className={styles.a} href="http://" target="_blank" rel="noopener noreferrer">Cronograma das Mentorias</a>
             </div>
         </section>
     )
