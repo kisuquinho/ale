@@ -105,6 +105,16 @@
         padding: 108px 20px 240px 20px;
 
         .title {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .main {
+        padding: 108px 20px 240px 20px;
+
+        .title {
             font-size: 1.4rem;
         }
     }

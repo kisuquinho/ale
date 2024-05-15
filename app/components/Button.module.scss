@@ -48,3 +48,10 @@
         background-color: lighten($color: #AF60ED, $amount: 8);
     }
 }
+
+@media screen and (max-width: 466px) {
+    .main {
+        width: 100%;
+        padding: 14px;
+    }
+}
