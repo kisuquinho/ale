@@ -1,5 +1,6 @@
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { inter } from './fonts'
+import Metrics from './metrics'
 import "./globals.scss";
 
 export const metadata = {
@@ -32,7 +33,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="G-J6HFYEWYFF" />
+      <Metrics />
     </html>
   );
 }
