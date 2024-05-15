@@ -20,4 +20,4 @@ const MicrosoftClarity = () => {
     )
 }
 
-export default MicrosoftClarity
+export default MicrosoftClarity;

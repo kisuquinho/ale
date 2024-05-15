@@ -1,7 +1,7 @@
 import { inter } from './fonts'
 import "./globals.scss";
-import GoogleAnalytics from "./GoogleAnalytics"
-import MicrosoftClarity from "./MicrosoftClarity"
+import GoogleAnalytics from "./metrics/GoogleAnalytics"
+import MicrosoftClarity from "./metrics/MicrosoftClarity"
 
 export const metadata = {
   title: "Comunidade respira | Alê Montezano",
