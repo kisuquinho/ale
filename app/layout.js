@@ -1,7 +1,8 @@
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { inter } from './fonts'
-import Metrics from './metrics'
 import "./globals.scss";
+import GoogleAnalytics from "./GoogleAnalytics"
+import MicrosoftClarity from "./MicrosoftClarity"
 
 export const metadata = {
   title: "Comunidade respira | Alê Montezano",
@@ -33,7 +34,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
-      <Metrics />
+      <GoogleAnalytics />
+      <MicrosoftClarity />
+      Metrics
     </html>
   );
 }
