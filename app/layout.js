@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { inter } from './fonts'
 import "./globals.scss";
 
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
+      <GoogleAnalytics gaId="G-J6HFYEWYFF" />
     </html>
   );
 }
