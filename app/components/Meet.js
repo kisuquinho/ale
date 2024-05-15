@@ -38,7 +38,7 @@ export default function Meet() {
             </div>
             <div className={styles.file}>
                 <img src="/file.svg" alt="Ícone de arquivo" />
-                <a className={styles.a} href="http://" target="_blank" rel="noopener noreferrer">Cronograma das Mentorias</a>
+                <a className={styles.a} href="https://drive.google.com/file/d/16vpKuRmA2eU5EW-2ugXDDfEx0pbhkM36/view" target="_blank" rel="noopener noreferrer">Cronograma das Mentorias</a>
             </div>
         </section>
     )
