@@ -9,12 +9,12 @@ const links = [
     {
         icon: '/phone.svg',
         title: "Phone",
-        href: ''
+        href: 'https://api.whatsapp.com/send/?phone=5533999904680&text=Olá%21+Faço+parte+da+Comunidade+Respira.&type=phone_number&app_absent=0'
     },
     {
         icon: '/mail.svg',
         title: "Email",
-        href: ''
+        href: 'mailto:suporte.alemontezano@gmail.com'
     }
 ]
 
