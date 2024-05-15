@@ -23,18 +23,24 @@ export default function Footer() {
     const [faqs, setFaqs] = useState([
         {
           question: "Quando terei acesso ao produto?",
-          answer: "Assim que realizado o pagamento terá acesso aos materiais de apoio ,... . Os 1° encontro será no dia ... às 19h30. ",
+          answer: "Assim que realizado o pagamento terá acesso aos materiais de apoio. Já o acesso às práticas semanais será de acordo com o cronograma.",
           open: false
         },
         {
           question: "Pra quem é o Breathwork? Há alguma contraindicação?",
-          answer: "O Breathwork é para todos que têm o desejo de assumir o controle da própria saúde,,, ...",
+          answer: "A prática do Breathwork é segura se praticada corretamente. As técnicas devem ser feitas com cautela por pessoas com hipertensão grave ou doença cardíaca. Mulheres grávidas não podem fazer.",
           open: false
         },
         {
           question:
-            "As mentorias serão disponibilizadas para re-assistir?",
-          answer: "...",
+            "As mentorias serão disponibilizadas para reassistir?",
+          answer: "O replay da mentoria estará disponível na semana respectiva ao encontro",
+          open: false
+        },
+        {
+          question:
+            "Como será o suporte a dúvidas?",
+          answer: "Você terá suporte direto no WhatsApp, com local para compartilhar sugestões, anseios e tirar dúvidas.",
           open: false
         },
         {

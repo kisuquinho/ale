@@ -91,6 +91,7 @@
 
         .p {
             font-size: .9rem;
+            padding: 0px;
         }
     
         .img {
@@ -99,18 +100,12 @@
     }
 }
 
-@media screen and (max-width: 491px) {
+@media screen and (max-width: 380px) {
     .main {
-        .img {
-            top: 196px;
-        }
-    }
-}
+        padding: 108px 20px 240px 20px;
 
-@media screen and (max-width: 465px) {
-    .main {
-        .img {
-            top: 220px;
+        .title {
+            font-size: 1.4rem;
         }
     }
 }
