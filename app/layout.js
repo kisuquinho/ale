@@ -10,7 +10,7 @@ export const metadata = {
     title: 'Comunidade Respira | Alê Montezano',
     description: 'Aprenda técnicas de Breathwork capazes de te ajudar no controle das emoções, na redução da ansiedade, do estresse, na melhora do sono e outros benefícios. Você será guiado por uma mentora por essa jornada de autoconhecimento e busca por bem-estar.',
     url: 'https://www.alemontezano.com',
-    siteName: 'Trote Solidário UFV',
+    siteName: 'Alê Montezano',
     locale: 'pt_BR',
     type: 'website',
     generator: 'Next.js',
